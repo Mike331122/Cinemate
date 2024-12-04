@@ -73,7 +73,7 @@ modules: [
 
 <h2>Zrzut ekranu:</h2>
 <p>
-    <img src="/Pogladowy.png" alt="Zrzut ekranu aplikacji Cinemate" width="800">
+    <img src="public/Pogladowy.png" alt="Zrzut ekranu aplikacji Cinemate" width="800">
 </p>
 
 <h2>Autor:</h2>
