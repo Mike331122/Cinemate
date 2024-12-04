@@ -1,7 +1,7 @@
 <template>
     <div>
         <section>
-            <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">Upcoming Movies</h1>
+            <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">Now Playing Movies</h1>
            
             <ul class="grid grid-cols-5 gap">
                 <li v-for="mov in movies" :key="mov.id">
@@ -19,15 +19,18 @@
             </ul>
 
         </section>
+        <section>
+            
+        </section>
     </div>
 </template>
 
 <script setup>
     const movies = useState(() => [])
 
-    const {data} = await useFetch('/api/movies/upcoming', {
+    const  {data} = await useFetch('/api/movies/nowplaying', {
         transform: data => {
-            movies.value = data.upcomingMovies.results
+            movies.value = data.nowPlayingMovies.results
         }
     })
 </script>

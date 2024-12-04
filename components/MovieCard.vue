@@ -3,7 +3,7 @@
         
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <NuxtLink @click="changeItemState" :to="`/item/${title}`">
+    <NuxtLink @click="changeItemState(item)" :to="`/item/${title}`">
         <img class="rounded-t-lg" :src="`${imageSiteUrl}${poster_path}`" alt="Movie Image" />
     </NuxtLink>
     <div class="p-5">
@@ -24,7 +24,6 @@
 </template>
 
 <script setup>
-import { NuxtLink } from '#build/components';
 
     defineProps([
         'title',
