@@ -34,6 +34,23 @@
     <li>Netlify (do hostingu aplikacji)</li>
 </ul>
 
+<h2>Instalacja Tailwind CSS:</h2>
+<ol>
+    <li>Zainstaluj Tailwind CSS jako zależność deweloperską:
+        <pre><code>npm install --save-dev @nuxtjs/tailwindcss</code></pre>
+    </li>
+    <li>Dodaj moduł Tailwind CSS do pliku <code>nuxt.config.ts</code>:
+        <pre><code>
+modules: [
+  '@nuxtjs/tailwindcss'
+]
+        </code></pre>
+    </li>
+    <li>Uruchom projekt, aby sprawdzić, czy Tailwind działa poprawnie:
+        <pre><code>npm run dev</code></pre>
+    </li>
+</ol>
+
 <h2>Jak uruchomić projekt lokalnie:</h2>
 <ol>
     <li>Skopiuj repozytorium na swój komputer:
@@ -56,10 +73,10 @@
 
 <h2>Zrzut ekranu:</h2>
 <p>
-    <img src="URL_DO_ZDJECIA" alt="Zrzut ekranu aplikacji Cinemate" width="800">
+    <img src="/Pogladowy.png" alt="Zrzut ekranu aplikacji Cinemate" width="800">
 </p>
 
 <h2>Autor:</h2>
 <p>
-    Stworzono przez [Twoje imię lub nazwa użytkownika].
+    Projekt został wykonany przez Maikel jako część kursu Nuxt.js.
 </p>
