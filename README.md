@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README</title>
-</head>
-<body>
-    <h1>Cinemate</h1>
+<h1>Cinemate</h1>
     <p>
         Cinemate to aplikacja internetowa zbudowana w <strong>Nuxt.js</strong>, która pozwala użytkownikom przeglądać informacje o filmach i serialach przy wykorzystaniu API The Movie Database (TMDb). 
         Aplikacja jest hostowana na platformie <strong>Netlify</strong> i dostępna pod <a href="https://cinimate.netlify.app" target="_blank">tym linkiem</a>.
@@ -68,5 +60,3 @@
         Dane wyświetlane w aplikacji pochodzą z TMDb i są aktualizowane na podstawie dostępnych endpointów. 
         Do działania aplikacja wymaga klucza API, który został poprawnie zaimplementowany w konfiguracji projektu.
     </p>
-</body>
-</html>
